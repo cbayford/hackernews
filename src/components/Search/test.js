@@ -20,6 +20,7 @@ describe('Search', () => {
     ReactDOM.render(<Search { ...props }>Search</Search>, div);
     ReactDOM.unmountComponentAtNode(div);
   });
+  
 
   test('has a valid snapshot', () => {
     const component = renderer.create(
